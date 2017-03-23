@@ -8,8 +8,8 @@ public class Pacientes {
 	private String Nif,nom;
 	private int edat;
 	private double[] preRev=new double[3];
-
-
+	
+//******************************* CONSTRUCTOR *******************************\\
 public Pacientes(String Nif, String nom, int edat, double temp, double tenSis, double tenDias){
 	//ident sera automatic 
 		this.Nif=Nif;
@@ -20,7 +20,7 @@ public Pacientes(String Nif, String nom, int edat, double temp, double tenSis, d
 		this.preRev[2]=tenDias;		
 	}
 
-
+//******************************* SETTERS Y GETTERS *******************************\\
 	public String getNif() {
 		return Nif;
 	}
@@ -80,7 +80,7 @@ public Pacientes(String Nif, String nom, int edat, double temp, double tenSis, d
 		lector.nextLine();
 		this.preRev[2]=tenDias;
 	}				
-//贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩贩穃\
+//路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路路\\
 
 		
 	public String toString() {
